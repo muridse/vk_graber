@@ -39,14 +39,14 @@ def calc_age(uid):
 
 #задаем инпут(id или ник, токен для работы, актуальный год)
 now_year = 2019
-access_token = 'b23be4c5b23be4c5b23be4c548b2503776bb23bb23be4c5ef0e4e2e0c40ac12d7bc5f6f'
-user_nick = 'muridse'
+access_token = 'TOKEN'
+user_nick = 'NICK'
 
 print('Введите нужный ник/id. Ник по умолчанию:', user_nick)
 user_nick = input()
 
 if user_nick == '':
-    user_nick = 'muridse'
+    user_nick = 'NICK'
 
 #вызов функции, которая вылает весь аутпут
 calc_age(user_nick)
